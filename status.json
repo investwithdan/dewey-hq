@@ -1,6 +1,6 @@
 {
-  "updatedAt": "Oct 5, 1:32 AM ET",
-  "updatedAtIso": "2026-10-05T01:32:44.585194-04:00",
+  "updatedAt": "Oct 5, 8:27 AM ET",
+  "updatedAtIso": "2026-10-05T08:27:31.016183-04:00",
   "bots": [
     {
       "id": "53f3e608-ff80-4a27-a2e5-6ca4c5d76cbf",
@@ -8,9 +8,9 @@
       "group": "chief",
       "business": "Main / Chief of Staff",
       "theme": "crown",
-      "status": "Building this Dewey HQ page. FOMO Rips logos are waiting on your partners' pick.",
-      "lastActive": "Oct 5, 1:32 AM ET",
-      "lastActiveIso": "2026-10-05T01:32:44.585194-04:00",
+      "status": "Dewey HQ is live; running the hourly status refresh. FOMO Rips logos still waiting on your partners' pick.",
+      "lastActive": "Oct 5, 8:27 AM ET",
+      "lastActiveIso": "2026-10-05T08:27:29-04:00",
       "dot": "green"
     },
     {
@@ -41,7 +41,7 @@
       "status": "Cleaned up the Gmail inbox: 49 promo emails moved to trash, a few unclear ones left for you to decide.",
       "lastActive": "Oct 5, 12:37 AM ET",
       "lastActiveIso": "2026-10-05T00:37:00-04:00",
-      "dot": "green"
+      "dot": "yellow"
     },
     {
       "id": "bf460238-110f-4b15-9d78-129e13e45697",
