@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta http-equiv="refresh" content="300"/>
+<title>Dewey HQ — Bot Status</title>
+<style>
+  :root {
+    --bg: #0b0b0f;
+    --text: #f4f4f5;
+    --muted: #a1a1aa;
+    --card: #16161d;
+    --gold: #f5c542;
+    --gold-dim: #8a6a12;
+    --neon: #39ff14;
+    --orange: #ff6b00;
+    --yellow: #ffe600;
+    --green: #22c55e;
+    --amber: #eab308;
+    --gray: #6b7280;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: radial-gradient(ellipse at top, #1a1520 0%, var(--bg) 55%);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 20px 16px 48px;
+  }
+  header {
+    text-align: center;
+    padding: 28px 12px 18px;
+  }
+  header h1 {
+    margin: 0;
+    font-size: clamp(2rem, 6vw, 3.2rem);
+    letter-spacing: 0.04em;
+    background: linear-gradient(90deg, #fff 0%, var(--gold) 50%, #fff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  header .sub {
+    margin-top: 8px;
+    color: var(--muted);
+    font-size: 1.05rem;
+  }
+  header .updated {
+    margin-top: 14px;
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: #221f2a;
+    border: 1px solid #3f3a4d;
+    font-size: 1rem;
+  }
+  .legend {
+    display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;
+    margin: 18px 0 8px; color: var(--muted); font-size: 0.95rem;
+  }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .section {
+    max-width: 980px;
+    margin: 28px auto;
+  }
+  .section h2 {
+    font-size: 1.45rem;
+    margin: 0 0 14px;
+    padding: 10px 14px;
+    border-radius: 12px;
+  }
+  .section-crown h2 {
+    background: linear-gradient(90deg, #3a2e0a, #1a1508);
+    border: 1px solid var(--gold-dim);
+    color: var(--gold);
+  }
+  .section-re h2 {
+    background: #14110a;
+    border: 1px solid #5c4a12;
+    color: var(--gold);
+  }
+  .section-cards h2 {
+    background: linear-gradient(90deg, #0d1a0a, #1a0f00);
+    border: 1px solid #3d5a12;
+    color: var(--neon);
+    text-shadow: 0 0 8px rgba(57,255,20,0.35);
+  }
+  .section-other h2 {
+    background: #14141c;
+    border: 1px solid #333;
+    color: #c4b5fd;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  @media (min-width: 720px) {
+    .grid { grid-template-columns: 1fr 1fr; }
+  }
+  .card {
+    background: var(--card);
+    border-radius: 18px;
+    padding: 18px 18px 16px;
+    border: 1px solid #2a2a35;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+  }
+  .group-chief {
+    border-color: var(--gold-dim);
+    background: linear-gradient(160deg, #221c0c 0%, #16161d 60%);
+  }
+  .group-re {
+    border-color: #4a3b10;
+  }
+  .group-cards {
+    border-color: #2f4a14;
+    background: linear-gradient(160deg, #10180e 0%, #1a1208 55%, #16161d 100%);
+  }
+  .group-cards .status { color: #d9ffc7; }
+  .card-top {
+    display: flex; align-items: center; gap: 12px;
+  }
+  .card h3 {
+    margin: 0;
+    font-size: 1.35rem;
+    line-height: 1.25;
+  }
+  .biz {
+    margin: 6px 0 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  .status {
+    margin: 14px 0 8px;
+    font-size: 1.2rem;
+    line-height: 1.35;
+    font-weight: 560;
+  }
+  .last {
+    margin: 0;
+    color: var(--muted);
+    font-size: 1rem;
+  }
+  .dot {
+    width: 16px; height: 16px; border-radius: 50%;
+    flex-shrink: 0;
+    box-shadow: 0 0 10px currentColor;
+  }
+  .dot.green { background: var(--green); color: var(--green); }
+  .dot.yellow { background: var(--amber); color: var(--amber); }
+  .dot.gray { background: var(--gray); color: var(--gray); box-shadow: none; }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    margin-top: 36px;
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>👑 Dewey HQ</h1>
+    <p class="sub">All Grok Bot assistants — tap once, read the cards</p>
+    <div class="updated">Last updated: Oct 5, 1:21 AM ET · auto-refreshes every 5 min</div>
+    <div class="legend">
+      <span><span class="dot green"></span> Active (last hour)</span>
+      <span><span class="dot yellow"></span> Active today</span>
+      <span><span class="dot gray"></span> Idle / unknown</span>
+    </div>
+  </header>
+  <section class="section section-crown"><h2>👑 King Dewey</h2><div class="grid">
+    <article class="card group-chief">
+      <div class="card-top">
+        <span class="dot green" title="green"></span>
+        <h3>King Dewey 👑</h3>
+      </div>
+      <p class="biz">Main / Chief of Staff</p>
+      <p class="status">Building this Dewey HQ page. FOMO Rips logos are waiting on your partners' pick.</p>
+      <p class="last">Last active: Oct 5, 1:21 AM ET</p>
+    </article></div></section><section class="section section-re"><h2>🏡 Real Estate — D F Land Management</h2><div class="grid">
+    <article class="card group-re">
+      <div class="card-top">
+        <span class="dot gray" title="gray"></span>
+        <h3>RE No Fluff Ace</h3>
+      </div>
+      <p class="biz">D F Land Management</p>
+      <p class="status">Learning phase: coaching from notes only (code enforcement, pre-foreclosures, tax liens). Waiting for your go.</p>
+      <p class="last">Last active: Sep 28, 4:30 PM ET</p>
+    </article>
+    <article class="card group-re">
+      <div class="card-top">
+        <span class="dot gray" title="gray"></span>
+        <h3>RE Lead Source</h3>
+      </div>
+      <p class="biz">Real Estate</p>
+      <p class="status">Idle. Code-enforcement test pull is paused until you say go.</p>
+      <p class="last">Last active: Sep 28, 4:00 PM ET</p>
+    </article>
+    <article class="card group-re">
+      <div class="card-top">
+        <span class="dot green" title="green"></span>
+        <h3>RE Inbox Keeper</h3>
+      </div>
+      <p class="biz">Real Estate</p>
+      <p class="status">Cleaned up the Gmail inbox: 49 promo emails moved to trash, a few unclear ones left for you to decide.</p>
+      <p class="last">Last active: Oct 5, 12:37 AM ET</p>
+    </article>
+    <article class="card group-re">
+      <div class="card-top">
+        <span class="dot gray" title="gray"></span>
+        <h3>RE Novations Nick</h3>
+      </div>
+      <p class="biz">Real Estate</p>
+      <p class="status">Drafted a Tampa novation playbook. Skool study paused, #3 in line.</p>
+      <p class="last">Last active: Sep 28, 4:23 PM ET</p>
+    </article>
+    <article class="card group-re">
+      <div class="card-top">
+        <span class="dot gray" title="gray"></span>
+        <h3>RE Marketing & Branding</h3>
+      </div>
+      <p class="biz">Real Estate</p>
+      <p class="status">Set up and ready. Waiting for its first assignment.</p>
+      <p class="last">Last active: Sep 29, 2:07 AM ET</p>
+    </article></div></section><section class="section section-cards"><h2>🃏 FOMO Rips — Cards</h2><div class="grid">
+    <article class="card group-cards">
+      <div class="card-top">
+        <span class="dot gray" title="gray"></span>
+        <h3>CC Ops</h3>
+      </div>
+      <p class="biz">FOMO Rips</p>
+      <p class="status">Standing by. Last in line for Card Vault Skool study.</p>
+      <p class="last">Last active: Sep 28, 4:24 PM ET</p>
+    </article>
+    <article class="card group-cards">
+      <div class="card-top">
+        <span class="dot gray" title="gray"></span>
+        <h3>CC Whatnot Seller</h3>
+      </div>
+      <p class="biz">FOMO Rips</p>
+      <p class="status">First in line for Card Vault Skool study. Working on Whatnot playbooks offline.</p>
+      <p class="last">Last active: Sep 28, 4:24 PM ET</p>
+    </article>
+    <article class="card group-cards">
+      <div class="card-top">
+        <span class="dot gray" title="gray"></span>
+        <h3>CC Inventory</h3>
+      </div>
+      <p class="biz">FOMO Rips</p>
+      <p class="status">Standing by. #2 in line for Card Vault Skool study.</p>
+      <p class="last">Last active: Sep 28, 4:24 PM ET</p>
+    </article>
+    <article class="card group-cards">
+      <div class="card-top">
+        <span class="dot gray" title="gray"></span>
+        <h3>CC Market Scout</h3>
+      </div>
+      <p class="biz">FOMO Rips</p>
+      <p class="status">Standing by. #3 in line for Card Vault study, doing price comps from notes.</p>
+      <p class="last">Last active: Sep 28, 4:24 PM ET</p>
+    </article>
+    <article class="card group-cards">
+      <div class="card-top">
+        <span class="dot gray" title="gray"></span>
+        <h3>CC Marketing & Branding</h3>
+      </div>
+      <p class="biz">FOMO Rips</p>
+      <p class="status">Pitched starter brand ideas (before the FOMO Rips rename). Waiting on your reply.</p>
+      <p class="last">Last active: Sep 29, 2:10 AM ET</p>
+    </article></div></section><section class="section section-other"><h2>✨ Other</h2><div class="grid">
+    <article class="card group-other">
+      <div class="card-top">
+        <span class="dot gray" title="gray"></span>
+        <h3>Memecoin King</h3>
+      </div>
+      <p class="biz">Crypto research</p>
+      <p class="status">Watching a Solana memecoin you asked about. No big-move alert yet.</p>
+      <p class="last">Last active: Not available</p>
+    </article>
+    <article class="card group-other">
+      <div class="card-top">
+        <span class="dot gray" title="gray"></span>
+        <h3>Random Market Selling Scout</h3>
+      </div>
+      <p class="biz">Resale price comps</p>
+      <p class="status">Priced a Japanese Dragon Ball Heroes booster box for you: a $55 offer looks good.</p>
+      <p class="last">Last active: Sep 30, 10:25 PM ET</p>
+    </article></div></section>
+  <footer>Statuses are privacy-filtered and only shown when activity can be read. Nothing is invented.</footer>
+</body>
+</html>
