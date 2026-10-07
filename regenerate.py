@@ -207,7 +207,7 @@ def render_html(data: dict) -> str:
     groups = [
         ("chief", "👑 King Dewey", "section-crown"),
         ("re", "🏡 Real Estate — D F Land Management", "section-re"),
-        ("cards", "🃏 FOMO Rips — Cards", "section-cards"),
+        ("cards", "🃏 CardStreet — Cards", "section-cards"),
         ("other", "✨ Other", "section-other"),
     ]
     sections = []
@@ -878,7 +878,7 @@ def render_gym_html(data: dict) -> str:
     zones = [
         ("chief", "👑 King's Corner", ""),
         ("re", "🏛️ Real Estate Iron Zone", ""),
-        ("cards", 'FOMO <span class="y">Rips</span> <span class="o">Cardio Deck</span> ⚡', ""),
+        ("cards", 'Card<span class="y">Street</span> <span class="o">Cardio Deck</span> ⚡', ""),
         ("other", "✨ Other", ""),
     ]
     zone_html = []
