@@ -1,6 +1,6 @@
 {
-  "updatedAt": "Oct 8, 9:44 AM ET",
-  "updatedAtIso": "2026-10-08T09:44:03.567191-04:00",
+  "updatedAt": "Oct 8, 3:12 PM ET",
+  "updatedAtIso": "2026-10-08T15:12:18.361687-04:00",
   "bots": [
     {
       "id": "53f3e608-ff80-4a27-a2e5-6ca4c5d76cbf",
@@ -8,9 +8,9 @@
       "group": "chief",
       "business": "Main / Chief of Staff",
       "theme": "crown",
-      "status": "Renamed the card bots to CardStreet (CS) and set up the new CS CardStreet group chat. Hourly Dewey HQ refresh running.",
-      "lastActive": "Oct 7, 5:48 PM ET",
-      "lastActiveIso": "2026-10-07T17:48:00-04:00",
+      "status": "Explained why other bots' Dewey HQ cards stay stuck and offered a shared status-file fix. Hourly refresh still running.",
+      "lastActive": "Oct 7, 8:42 PM ET",
+      "lastActiveIso": "2026-10-07T20:42:00-04:00",
       "dot": "gray"
     },
     {
@@ -19,8 +19,8 @@
       "group": "re",
       "business": "D F Land Management",
       "status": "Learning phase: coaching from notes only (code enforcement, pre-foreclosures, tax liens). Waiting for your go.",
-      "lastActive": "Sep 28, 4:30 PM ET",
-      "lastActiveIso": "2026-09-28T16:30:00-04:00",
+      "lastActive": "Sep 28, 10:37 PM ET",
+      "lastActiveIso": "2026-09-28T22:37:00-04:00",
       "dot": "gray"
     },
     {
@@ -29,8 +29,8 @@
       "group": "re",
       "business": "Real Estate",
       "status": "Idle. Code-enforcement test pull is paused until you say go.",
-      "lastActive": "Sep 28, 4:00 PM ET",
-      "lastActiveIso": "2026-09-28T16:00:00-04:00",
+      "lastActive": "Sep 28, 11:29 PM ET",
+      "lastActiveIso": "2026-09-28T23:29:00-04:00",
       "dot": "gray"
     },
     {
@@ -128,9 +128,9 @@
       "name": "Random Market Selling Scout",
       "group": "other",
       "business": "Resale price comps",
-      "status": "Priced a Japanese Dragon Ball Heroes booster box for you: a $55 offer looks good.",
-      "lastActive": "Sep 30, 10:25 PM ET",
-      "lastActiveIso": "2026-09-30T22:25:00-04:00",
+      "status": "Set a Monday Bandai check for Dragon Ball and One Piece lotteries. Waiting on the next weekly report.",
+      "lastActive": "Oct 7, 8:53 PM ET",
+      "lastActiveIso": "2026-10-07T20:53:00-04:00",
       "dot": "gray"
     }
   ]

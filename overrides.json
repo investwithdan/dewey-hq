@@ -1,15 +1,15 @@
 {
   "53f3e608-ff80-4a27-a2e5-6ca4c5d76cbf": {
-    "status": "Renamed the card bots to CardStreet (CS) and set up the new CS CardStreet group chat. Hourly Dewey HQ refresh running.",
-    "lastActiveIso": "2026-10-07T17:48:00-04:00"
+    "status": "Explained why other bots' Dewey HQ cards stay stuck and offered a shared status-file fix. Hourly refresh still running.",
+    "lastActiveIso": "2026-10-07T20:42:00-04:00"
   },
   "55f1b729-da04-47da-b27f-1c8cc08b3a46": {
     "status": "Learning phase: coaching from notes only (code enforcement, pre-foreclosures, tax liens). Waiting for your go.",
-    "lastActiveIso": "2026-09-28T16:30:00-04:00"
+    "lastActiveIso": "2026-09-28T22:37:00-04:00"
   },
   "b6beb697-de17-4ba0-b353-2ed82b45c43a": {
     "status": "Idle. Code-enforcement test pull is paused until you say go.",
-    "lastActiveIso": "2026-09-28T16:00:00-04:00"
+    "lastActiveIso": "2026-09-28T23:29:00-04:00"
   },
   "a1d4100a-852a-4f24-ad57-070bfe7a7a93": {
     "status": "Cleaned up the Gmail inbox: 49 promo emails moved to trash, a few unclear ones left for you to decide.",
@@ -48,7 +48,7 @@
     "lastActiveIso": null
   },
   "5330e1eb-ac0c-42e5-9fdf-b30e5554d441": {
-    "status": "Priced a Japanese Dragon Ball Heroes booster box for you: a $55 offer looks good.",
-    "lastActiveIso": "2026-09-30T22:25:00-04:00"
+    "status": "Set a Monday Bandai check for Dragon Ball and One Piece lotteries. Waiting on the next weekly report.",
+    "lastActiveIso": "2026-10-07T20:53:00-04:00"
   }
 }
