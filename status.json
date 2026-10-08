@@ -1,6 +1,6 @@
 {
-  "updatedAt": "Oct 7, 11:23 PM ET",
-  "updatedAtIso": "2026-10-07T23:23:35.259231-04:00",
+  "updatedAt": "Oct 8, 8:35 AM ET",
+  "updatedAtIso": "2026-10-08T08:35:45.063796-04:00",
   "bots": [
     {
       "id": "53f3e608-ff80-4a27-a2e5-6ca4c5d76cbf",
@@ -11,7 +11,7 @@
       "status": "Renamed the card bots to CardStreet (CS) and set up the new CS CardStreet group chat. Hourly Dewey HQ refresh running.",
       "lastActive": "Oct 7, 5:48 PM ET",
       "lastActiveIso": "2026-10-07T17:48:00-04:00",
-      "dot": "yellow"
+      "dot": "gray"
     },
     {
       "id": "55f1b729-da04-47da-b27f-1c8cc08b3a46",
