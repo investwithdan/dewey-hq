@@ -1,6 +1,6 @@
 {
-  "updatedAt": "Oct 9, 10:23 PM ET",
-  "updatedAtIso": "2026-10-09T22:23:24.888352-04:00",
+  "updatedAt": "Oct 9, 11:29 PM ET",
+  "updatedAtIso": "2026-10-09T23:29:57.888047-04:00",
   "bots": [
     {
       "id": "53f3e608-ff80-4a27-a2e5-6ca4c5d76cbf",
@@ -9,9 +9,9 @@
       "business": "Main / Chief of Staff",
       "theme": "crown",
       "status": "Explained why other bots' Dewey HQ cards stay stuck and offered a shared status-file fix. Hourly refresh still running.",
-      "lastActive": "Oct 9, 8:23 PM ET",
-      "lastActiveIso": "2026-10-09T20:23:12-04:00",
-      "dot": "yellow"
+      "lastActive": "Oct 9, 11:29 PM ET",
+      "lastActiveIso": "2026-10-09T23:29:57-04:00",
+      "dot": "green"
     },
     {
       "id": "55f1b729-da04-47da-b27f-1c8cc08b3a46",
