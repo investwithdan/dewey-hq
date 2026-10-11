@@ -46,11 +46,27 @@ def ms_to_dt(ms: int | float | None) -> datetime | None:
     return datetime.fromtimestamp(ms / 1000, tz=timezone.utc).astimezone(ET)
 
 
+# Public page must never mention personal/family/medical/home topics
+TOPIC_BLOCKLIST = re.compile(
+    r"\b(?:"
+    r"prenatal|pregnant|pregnancy|qnatal|quest\s*diagnostics|"
+    r"lab[- ]?report|medical|doctor|hospital|ultrasound|"
+    r"family|spouse|wife|husband|baby|infant|"
+    r"thermostat|air\s*conditioning|\bA/?C\b|snowflake"
+    r")\b",
+    re.I,
+)
+
+SAFE_STATUS_FALLBACK = "Helped with a private question. Details stay off this public page."
+
+
 def scrub(text: str) -> str:
     out = text
     for pat in PRIVACY_PATTERNS:
         out = pat.sub("[redacted]", out)
     out = SENSITIVE_NAME_HINTS.sub("[redacted]", out)
+    if TOPIC_BLOCKLIST.search(out):
+        return SAFE_STATUS_FALLBACK
     return out
 
 
@@ -165,7 +181,7 @@ def build_status() -> dict:
             last_dt = now
         ov = OVERRIDES.get(b["id"])
         if ov:
-            status = ov.get("status", status)
+            status = scrub(ov.get("status", status))
             iso = ov.get("lastActiveIso")
             if iso == "NOW":
                 last_dt = now
