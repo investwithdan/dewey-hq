@@ -1,6 +1,6 @@
 {
-  "updatedAt": "Oct 12, 11:31 PM ET",
-  "updatedAtIso": "2026-10-12T23:31:21.768722-04:00",
+  "updatedAt": "Oct 13, 8:29 AM ET",
+  "updatedAtIso": "2026-10-13T08:29:36.486685-04:00",
   "bots": [
     {
       "id": "53f3e608-ff80-4a27-a2e5-6ca4c5d76cbf",
@@ -131,7 +131,7 @@
       "status": "Ran the Monday Premium Bandai check for Dragon Ball and One Piece. No open figure lotteries; Premium Bandai Week promo runs through Oct 13.",
       "lastActive": "Oct 12, 9:17 AM ET",
       "lastActiveIso": "2026-10-12T09:17:10-04:00",
-      "dot": "yellow"
+      "dot": "gray"
     }
   ]
 }
