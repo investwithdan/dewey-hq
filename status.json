@@ -1,6 +1,6 @@
 {
-  "updatedAt": "Oct 14, 8:30 AM ET",
-  "updatedAtIso": "2026-10-14T08:30:51.910204-04:00",
+  "updatedAt": "Oct 14, 9:31 AM ET",
+  "updatedAtIso": "2026-10-14T09:31:08.328013-04:00",
   "bots": [
     {
       "id": "53f3e608-ff80-4a27-a2e5-6ca4c5d76cbf",
@@ -131,7 +131,7 @@
       "status": "Checked Walmart, Barnes & Noble, and other stores for 2026 Topps Neon Marvel and upcoming card drops.",
       "lastActive": "Oct 14, 8:15 AM ET",
       "lastActiveIso": "2026-10-14T08:15:05-04:00",
-      "dot": "green"
+      "dot": "yellow"
     }
   ]
 }
