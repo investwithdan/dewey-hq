@@ -1,6 +1,6 @@
 {
-  "updatedAt": "Oct 17, 11:26 PM ET",
-  "updatedAtIso": "2026-10-17T23:26:20.972028-04:00",
+  "updatedAt": "Oct 18, 8:30 AM ET",
+  "updatedAtIso": "2026-10-18T08:30:49.797208-04:00",
   "bots": [
     {
       "id": "53f3e608-ff80-4a27-a2e5-6ca4c5d76cbf",
@@ -11,7 +11,7 @@
       "status": "Checking open .si domain names and building an A\u2013Z availability chart. Hourly Dewey HQ refresh running.",
       "lastActive": "Oct 17, 2:10 AM ET",
       "lastActiveIso": "2026-10-17T02:10:33-04:00",
-      "dot": "yellow"
+      "dot": "gray"
     },
     {
       "id": "55f1b729-da04-47da-b27f-1c8cc08b3a46",
