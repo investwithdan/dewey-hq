@@ -1,6 +1,6 @@
 {
-  "updatedAt": "Oct 23, 11:23 PM ET",
-  "updatedAtIso": "2026-10-23T23:23:03.156983-04:00",
+  "updatedAt": "Oct 24, 8:28 AM ET",
+  "updatedAtIso": "2026-10-24T08:28:43.900377-04:00",
   "bots": [
     {
       "id": "53f3e608-ff80-4a27-a2e5-6ca4c5d76cbf",
@@ -11,7 +11,7 @@
       "status": "Pulled an Instagram reel for review and set up how Instagram posts get passed to Memecoin King. Hourly Dewey HQ refresh running.",
       "lastActive": "Oct 23, 12:45 AM ET",
       "lastActiveIso": "2026-10-23T00:45:05-04:00",
-      "dot": "yellow"
+      "dot": "gray"
     },
     {
       "id": "55f1b729-da04-47da-b27f-1c8cc08b3a46",
