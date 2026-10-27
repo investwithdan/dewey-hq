@@ -1,6 +1,6 @@
 {
-  "updatedAt": "Oct 27, 8:31 AM ET",
-  "updatedAtIso": "2026-10-27T08:31:22.480467-04:00",
+  "updatedAt": "Oct 27, 9:34 AM ET",
+  "updatedAtIso": "2026-10-27T09:34:10.351403-04:00",
   "bots": [
     {
       "id": "53f3e608-ff80-4a27-a2e5-6ca4c5d76cbf",
@@ -11,7 +11,7 @@
       "status": "Saved a standing rule for how bot purchases get handled. Hourly Dewey HQ refresh running.",
       "lastActive": "Oct 27, 8:30 AM ET",
       "lastActiveIso": "2026-10-27T08:30:00-04:00",
-      "dot": "green"
+      "dot": "yellow"
     },
     {
       "id": "55f1b729-da04-47da-b27f-1c8cc08b3a46",
