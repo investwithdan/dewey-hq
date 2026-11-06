@@ -754,7 +754,7 @@ JS = r"""
     }
     state.demoIds = new Set(picks);
     state.demoUntil = Date.now() + 15000;
-    el.demoBtn.disabled = true;
+    if (el.demoBtn) el.demoBtn.disabled = true;
     el.demoNote.textContent =
       "Demo only — temporarily pulsing " +
       picks.length +
@@ -763,7 +763,7 @@ JS = r"""
     setTimeout(() => {
       state.demoUntil = 0;
       state.demoIds = new Set();
-      el.demoBtn.disabled = false;
+      if (el.demoBtn) el.demoBtn.disabled = false;
       el.demoNote.textContent =
         "Demo pulse finished. Cards are back to real status.json dots.";
       render();
@@ -793,7 +793,7 @@ JS = r"""
   document.querySelectorAll(".chip").forEach((chip) => {
     chip.addEventListener("click", () => setFilter(chip.dataset.filter));
   });
-  el.demoBtn.addEventListener("click", runDemoPulse);
+  if (el.demoBtn) el.demoBtn.addEventListener("click", runDemoPulse);
   el.backdrop.addEventListener("click", (ev) => {
     if (ev.target === el.backdrop) closeModal();
   });
@@ -827,6 +827,13 @@ def render_gym_dbz_html(data: dict, *, private_preview: bool = True) -> str:
 
     banner = ""
     demo_block = ""
+    robots_meta = '<meta name="robots" content="noindex,nofollow" />\n' if private_preview else ""
+    page_title = "Dewey HQ · Bot Gym — PRIVATE INTERACTIVE PREVIEW" if private_preview else "Dewey HQ · Bot Gym"
+    footnote = (
+        "Private interactive preview · refreshes from status.json every 60s when served · live Dewey HQ unchanged · images in gym-dbz-assets/"
+        if private_preview
+        else "Statuses refresh with Dewey HQ · privacy-filtered · original characters inspired by Dragon Ball fighter archetypes — not official clones."
+    )
     if private_preview:
         banner = """  <div class="preview-banner">
     Private preview — not published
@@ -843,8 +850,7 @@ def render_gym_dbz_html(data: dict, *, private_preview: bool = True) -> str:
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="robots" content="noindex,nofollow" />
-<title>Dewey HQ · Bot Gym — {"PRIVATE INTERACTIVE PREVIEW" if private_preview else "Bot Gym"}</title>
+{robots_meta}<title>{page_title}</title>
 <style>
 {CSS}
 </style>
@@ -896,7 +902,7 @@ def render_gym_dbz_html(data: dict, *, private_preview: bool = True) -> str:
 {demo_block}    </div>
 
     <div id="boards"></div>
-    <p class="footnote">Private interactive preview · refreshes from status.json every 60s when served · live Dewey HQ unchanged · images in gym-dbz-assets/</p>
+    <p class="footnote">{footnote}</p>
   </div>
 
   <div class="modal-backdrop" id="modal-backdrop" hidden aria-hidden="true">
