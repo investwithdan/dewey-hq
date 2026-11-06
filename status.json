@@ -1,6 +1,6 @@
 {
   "updatedAt": "Nov 6, 1:18 AM ET",
-  "updatedAtIso": "2026-11-06T01:18:30.139760-05:00",
+  "updatedAtIso": "2026-11-06T01:18:46.436966-05:00",
   "bots": [
     {
       "id": "53f3e608-ff80-4a27-a2e5-6ca4c5d76cbf",
@@ -8,10 +8,10 @@
       "group": "chief",
       "business": "Main / Chief of Staff",
       "theme": "crown",
-      "status": "Checked Dewey Gmail and confirmed the Dewey HQ page update.",
-      "lastActive": "Nov 5, 4:48 PM ET",
-      "lastActiveIso": "2026-11-05T16:48:00-05:00",
-      "dot": "gray"
+      "status": "Published the interactive Dragon Ball\u2013inspired Bot Gym to Dewey HQ.",
+      "lastActive": "Nov 6, 1:18 AM ET",
+      "lastActiveIso": "2026-11-06T01:18:46.405958-05:00",
+      "dot": "green"
     },
     {
       "id": "55f1b729-da04-47da-b27f-1c8cc08b3a46",
