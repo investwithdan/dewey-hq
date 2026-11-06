@@ -1,67 +1,67 @@
 {
   "53f3e608-ff80-4a27-a2e5-6ca4c5d76cbf": {
-    "role": "Chief of Staff · HQ command & coordination",
-    "image": "gym-dbz-assets/king-dewey.jpg",
+    "role": "Chief of Staff \u00b7 HQ command & coordination",
+    "image": "gym-dbz-assets/king-dewey-ss4.jpg",
     "section": "command",
     "king": true
   },
   "55f1b729-da04-47da-b27f-1c8cc08b3a46": {
-    "role": "RE Coach · strategy & deal coaching",
+    "role": "RE Coach \u00b7 strategy & deal coaching",
     "image": "gym-dbz-assets/re-ace.jpg",
     "section": "re"
   },
   "b6beb697-de17-4ba0-b353-2ed82b45c43a": {
-    "role": "Lead Scout · code enforcement & list pulls",
+    "role": "Lead Scout \u00b7 code enforcement & list pulls",
     "image": "gym-dbz-assets/re-lead-source.jpg",
     "section": "re"
   },
   "a1d4100a-852a-4f24-ad57-070bfe7a7a93": {
-    "role": "Inbox Keeper · email triage & cleanup",
+    "role": "Inbox Keeper \u00b7 email triage & cleanup",
     "image": "gym-dbz-assets/re-inbox-keeper.jpg",
     "section": "re"
   },
   "bf460238-110f-4b15-9d78-129e13e45697": {
-    "role": "Contracts · novation playbooks & paperwork",
+    "role": "Contracts \u00b7 novation playbooks & paperwork",
     "image": "gym-dbz-assets/re-novations-nick.jpg",
     "section": "re"
   },
   "2f7735f3-fd5e-4b03-b43c-8f637125a72d": {
-    "role": "RE Marketing · brand & outreach creative",
+    "role": "RE Marketing \u00b7 brand & outreach creative",
     "image": "gym-dbz-assets/re-marketing.jpg",
     "section": "re"
   },
   "02b5177a-0569-45b3-b698-caa30965aeb5": {
-    "role": "Card Ops · operations & workflow",
+    "role": "Card Ops \u00b7 operations & workflow",
     "image": "gym-dbz-assets/cs-ops.jpg",
     "section": "cards"
   },
   "bf5ee880-1cb7-4221-ab93-647206ff84c5": {
-    "role": "Whatnot Seller · live shows & playbooks",
+    "role": "Whatnot Seller \u00b7 live shows & playbooks",
     "image": "gym-dbz-assets/cs-whatnot-seller.jpg",
     "section": "cards"
   },
   "d38fbbd9-f01d-4208-b0f9-17509cd52309": {
-    "role": "Inventory · stock tracking & pulls",
+    "role": "Inventory \u00b7 stock tracking & pulls",
     "image": "gym-dbz-assets/cs-inventory.jpg",
     "section": "cards"
   },
   "eb5d43c1-39cc-4920-8fd1-4f37ccd38478": {
-    "role": "Market Scout · comps & price intel",
+    "role": "Market Scout \u00b7 comps & price intel",
     "image": "gym-dbz-assets/cs-market-scout.jpg",
     "section": "cards"
   },
   "77ce1314-1724-4cf5-939c-51acdaefd207": {
-    "role": "Card Branding · logos & creative",
+    "role": "Card Branding \u00b7 logos & creative",
     "image": "gym-dbz-assets/cs-marketing.jpg",
     "section": "cards"
   },
   "1c983104-eff1-4875-997e-3e053bb6059a": {
-    "role": "Crypto Research · charts & alerts",
+    "role": "Crypto Research \u00b7 charts & alerts",
     "image": "gym-dbz-assets/memecoin-king.jpg",
     "section": "other"
   },
   "5330e1eb-ac0c-42e5-9fdf-b30e5554d441": {
-    "role": "Resale Scout · price comps & deals",
+    "role": "Resale Scout \u00b7 price comps & deals",
     "image": "gym-dbz-assets/resale-scout.jpg",
     "section": "other"
   }

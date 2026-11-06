@@ -27,7 +27,7 @@ SECTION_META = [
 DEFAULT_META = {
     "53f3e608-ff80-4a27-a2e5-6ca4c5d76cbf": {
         "role": "Chief of Staff · HQ command & coordination",
-        "image": "gym-dbz-assets/king-dewey.jpg",
+        "image": "gym-dbz-assets/king-dewey-ss4.jpg",
         "section": "command",
         "king": True,
     },
