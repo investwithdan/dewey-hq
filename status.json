@@ -1,6 +1,6 @@
 {
-  "updatedAt": "Nov 6, 1:30 AM ET",
-  "updatedAtIso": "2026-11-06T01:30:49.640803-05:00",
+  "updatedAt": "Nov 6, 8:48 AM ET",
+  "updatedAtIso": "2026-11-06T08:48:18.265976-05:00",
   "bots": [
     {
       "id": "53f3e608-ff80-4a27-a2e5-6ca4c5d76cbf",
@@ -8,10 +8,10 @@
       "group": "chief",
       "business": "Main / Chief of Staff",
       "theme": "crown",
-      "status": "Upgraded King Dewey\u2019s gym portrait to Super Saiyan 4\u2013style ring leader.",
-      "lastActive": "Nov 6, 1:21 AM ET",
-      "lastActiveIso": "2026-11-06T01:21:57.079806-05:00",
-      "dot": "green"
+      "status": "Set up free CapCut and Canva for the YouTube free path; YouTube sign-in still waiting on Google login.",
+      "lastActive": "Nov 6, 2:07 AM ET",
+      "lastActiveIso": "2026-11-06T02:07:41.803000-05:00",
+      "dot": "yellow"
     },
     {
       "id": "55f1b729-da04-47da-b27f-1c8cc08b3a46",
@@ -38,10 +38,10 @@
       "name": "RE Inbox Keeper",
       "group": "re",
       "business": "Real Estate",
-      "status": "Cleaned up the Gmail inbox: 49 promo emails moved to trash, a few unclear ones left for you to decide.",
-      "lastActive": "Oct 5, 12:37 AM ET",
-      "lastActiveIso": "2026-10-05T00:37:00-04:00",
-      "dot": "gray"
+      "status": "Helped confirm which connected inbox can receive free signup codes.",
+      "lastActive": "Nov 6, 1:55 AM ET",
+      "lastActiveIso": "2026-11-06T01:55:22.634000-05:00",
+      "dot": "yellow"
     },
     {
       "id": "bf460238-110f-4b15-9d78-129e13e45697",
@@ -138,10 +138,10 @@
       "name": "YT Creator Ace",
       "group": "other",
       "business": "YouTube creation & monetization",
-      "status": "Standing up \u2014 starting free-path YouTube channel plan from Daniel\u2019s prompt screenshots.",
-      "lastActive": "Nov 6, 1:30 AM ET",
-      "lastActiveIso": "2026-11-06T01:30:46.791596-05:00",
-      "dot": "green"
+      "status": "Free CapCut and Canva are ready; YouTube channel setup is waiting on Google login.",
+      "lastActive": "Nov 6, 2:01 AM ET",
+      "lastActiveIso": "2026-11-06T02:01:51.464000-05:00",
+      "dot": "yellow"
     }
   ]
 }
