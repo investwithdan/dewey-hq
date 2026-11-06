@@ -32,7 +32,7 @@ __pycache__/
 .publish-tmp/
 GI
 
-git add index.html gym.html status.json bots.json regenerate.py publish.sh overrides.json
+git add index.html gym.html status.json bots.json regenerate.py publish.sh overrides.json gym_dbz_renderer.py bots-meta.json gym-dbz-assets
 git add -f index.html gym.html
 git status
 git -c user.email="dewey-hq@local" -c user.name="Dewey HQ" commit -m "Update Dewey HQ status page" || true

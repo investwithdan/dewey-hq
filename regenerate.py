@@ -958,11 +958,22 @@ def render_gym_html(data: dict) -> str:
 
 
 
+
+# Dragon Ball interactive gym renderer (private preview / future swap).
+# Not called from main() yet — hourly publish still writes classic gym.html only.
+try:
+    from gym_dbz_renderer import render_gym_dbz_html  # noqa: F401
+except ImportError:  # pragma: no cover
+    def render_gym_dbz_html(data: dict, *, private_preview: bool = True) -> str:  # type: ignore
+        raise RuntimeError("gym_dbz_renderer.py missing")
+
+
 def main() -> None:
     data = build_status()
     (ROOT / "status.json").write_text(json.dumps(data, indent=2) + "\n")
     (ROOT / "index.html").write_text(render_html(data))
-    (ROOT / "gym.html").write_text(render_gym_html(data))
+    # Interactive Dragon Ball gym is the public gym now
+    (ROOT / "gym.html").write_text(render_gym_dbz_html(data, private_preview=False))
     print(f"Updated {ROOT/'status.json'}, {ROOT/'index.html'} and {ROOT/'gym.html'} at {data['updatedAt']}")
     for b in data["bots"]:
         print(f"  [{b['dot']:6}] {b['name']}: {b['status']} | {b.get('lastActive')}")
