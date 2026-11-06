@@ -1,6 +1,6 @@
 {
-  "updatedAt": "Nov 5, 7:24 PM ET",
-  "updatedAtIso": "2026-11-05T19:24:52.928986-05:00",
+  "updatedAt": "Nov 5, 8:25 PM ET",
+  "updatedAtIso": "2026-11-05T20:25:37.799724-05:00",
   "bots": [
     {
       "id": "53f3e608-ff80-4a27-a2e5-6ca4c5d76cbf",
@@ -8,10 +8,10 @@
       "group": "chief",
       "business": "Main / Chief of Staff",
       "theme": "crown",
-      "status": "Checked Florida business-name availability for the card brand. Hourly Dewey HQ refresh running.",
-      "lastActive": "Nov 4, 9:00 AM ET",
-      "lastActiveIso": "2026-11-04T09:00:00-05:00",
-      "dot": "gray"
+      "status": "Reviewed Dewey Gmail for a REI tool billing notice and confirmed the HQ page update.",
+      "lastActive": "Nov 5, 4:48 PM ET",
+      "lastActiveIso": "2026-11-05T16:48:00-05:00",
+      "dot": "yellow"
     },
     {
       "id": "55f1b729-da04-47da-b27f-1c8cc08b3a46",
@@ -118,9 +118,9 @@
       "name": "Memecoin King",
       "group": "other",
       "business": "Crypto research",
-      "status": "Flagged that the watched Solana coin slid further from the start of the watch. Still monitoring.",
-      "lastActive": "Oct 16, 6:53 PM ET",
-      "lastActiveIso": "2026-10-16T18:53:12-04:00",
+      "status": "Checked GEOM and HELL live, set price-move alerts on both, and flagged that GEOM still lacks a parabolic setup.",
+      "lastActive": "Nov 4, 1:07 AM ET",
+      "lastActiveIso": "2026-11-04T01:07:00-05:00",
       "dot": "gray"
     },
     {
@@ -128,9 +128,9 @@
       "name": "Random Market Selling Scout",
       "group": "other",
       "business": "Resale price comps",
-      "status": "Got a Team Rocket's Mewtwo ex card from Destined Rivals to price-check.",
-      "lastActive": "Oct 21, 2:22 AM ET",
-      "lastActiveIso": "2026-10-21T02:22:00-04:00",
+      "status": "Turned off the recurring casting and Bandai lottery checks. Standing by for the next ask.",
+      "lastActive": "Nov 4, 12:51 AM ET",
+      "lastActiveIso": "2026-11-04T00:51:00-05:00",
       "dot": "gray"
     }
   ]
