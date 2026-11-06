@@ -91,6 +91,12 @@ DEFAULT_META = {
         "image": "gym-dbz-assets/resale-scout.jpg",
         "section": "other",
     },
+    "63c73cd2-17bd-4150-b52c-105a5eeb67f5": {
+        "role": "YouTube · creation, growth & monetization",
+        "image": "gym-dbz-assets/yt-creator-ace.jpg",
+        "section": "other",
+    },
+
 }
 
 

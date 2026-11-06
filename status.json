@@ -1,6 +1,6 @@
 {
-  "updatedAt": "Nov 6, 1:22 AM ET",
-  "updatedAtIso": "2026-11-06T01:22:08.124582-05:00",
+  "updatedAt": "Nov 6, 1:30 AM ET",
+  "updatedAtIso": "2026-11-06T01:30:49.640803-05:00",
   "bots": [
     {
       "id": "53f3e608-ff80-4a27-a2e5-6ca4c5d76cbf",
@@ -132,6 +132,16 @@
       "lastActive": "Nov 4, 12:51 AM ET",
       "lastActiveIso": "2026-11-04T00:51:00-05:00",
       "dot": "gray"
+    },
+    {
+      "id": "63c73cd2-17bd-4150-b52c-105a5eeb67f5",
+      "name": "YT Creator Ace",
+      "group": "other",
+      "business": "YouTube creation & monetization",
+      "status": "Standing up \u2014 starting free-path YouTube channel plan from Daniel\u2019s prompt screenshots.",
+      "lastActive": "Nov 6, 1:30 AM ET",
+      "lastActiveIso": "2026-11-06T01:30:46.791596-05:00",
+      "dot": "green"
     }
   ]
 }
