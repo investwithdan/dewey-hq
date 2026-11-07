@@ -1,6 +1,6 @@
 {
-  "updatedAt": "Nov 6, 11:27 PM ET",
-  "updatedAtIso": "2026-11-06T23:27:48.316853-05:00",
+  "updatedAt": "Nov 7, 8:26 AM ET",
+  "updatedAtIso": "2026-11-07T08:26:30.413739-05:00",
   "bots": [
     {
       "id": "53f3e608-ff80-4a27-a2e5-6ca4c5d76cbf",
@@ -11,7 +11,7 @@
       "status": "Noon update: YT Ace finished the channel plan, 100 ideas, and first 10 scripts; YouTube still waiting on Google sign-in.",
       "lastActive": "Nov 6, 12:07 PM ET",
       "lastActiveIso": "2026-11-06T12:07:00.645000-05:00",
-      "dot": "yellow"
+      "dot": "gray"
     },
     {
       "id": "55f1b729-da04-47da-b27f-1c8cc08b3a46",
@@ -41,7 +41,7 @@
       "status": "Helped confirm which connected inbox can receive free signup codes.",
       "lastActive": "Nov 6, 1:55 AM ET",
       "lastActiveIso": "2026-11-06T01:55:22.634000-05:00",
-      "dot": "yellow"
+      "dot": "gray"
     },
     {
       "id": "bf460238-110f-4b15-9d78-129e13e45697",
@@ -121,7 +121,7 @@
       "status": "Flagged overnight GEOM accumulation by a large buyer plus an official GADC purchase disclosure.",
       "lastActive": "Nov 6, 9:21 AM ET",
       "lastActiveIso": "2026-11-06T09:21:02.364000-05:00",
-      "dot": "yellow"
+      "dot": "gray"
     },
     {
       "id": "5330e1eb-ac0c-42e5-9fdf-b30e5554d441",
@@ -141,7 +141,7 @@
       "status": "Free CapCut and Canva are ready; YouTube channel setup is waiting on Google login.",
       "lastActive": "Nov 6, 2:01 AM ET",
       "lastActiveIso": "2026-11-06T02:01:51.464000-05:00",
-      "dot": "yellow"
+      "dot": "gray"
     }
   ]
 }
